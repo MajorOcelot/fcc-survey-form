@@ -1,0 +1,166 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/033/097/240/original/yuri-kondo-citadelakondoparallax1.gif?1608396007');
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Tahoma, serif;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 127, 127, 50%);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 48px;
+    padding: 24px;
+    max-width: 720px;
+    min-width: 128px;
+  }
+  
+  .headerflex {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 50%);
+    padding: 24px;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  h1 {
+    padding: 8px;
+  }
+  
+  p {
+    padding: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .surveyflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 50%);
+  }
+  
+  .namelabelflex, .emaillabelflex, .numberlabelflex {
+    display: flex;
+    margin: 8px;
+    text-align: center;
+    height: 45px;
+  }
+  
+  #name, #email, #number {
+    text-align: center;
+    background-color: rgba(127, 127, 127, 50%)
+  }
+  
+  #name, #email, #number {
+    padding: 2px;
+    margin: 8px;
+  }
+  
+  .dropdownflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid black; 
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 50%);
+  }
+  
+  #regiondropdown {
+    display: flex;
+  }
+  
+  #dropdown {
+    display: flex;
+    max-width: 50%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 24px;
+  }
+  
+  .choicesflexoverlord {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(255, 255, 255, 50%);
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 12px;
+    padding-top: 24px;
+    align-items: center;
+  }
+  
+  .choicesflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+  }
+  
+  #Option1, #Option2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .textareaflex {
+    display: flex;
+    height: 400px;
+    width: 400px;
+  }
+  
+  .whatyoulike {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submitbutton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #submit {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  
+  /* FOOTER */
+  
+  #footerpara {
+    max-width: 750px;
+    border: 2px solid black;
+    width: 720px;
+    padding: 24px;
+    background-color:  rgba(255, 255, 255, 75%);
+  }

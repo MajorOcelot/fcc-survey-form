@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Page</title>
+</head>
+<body>
+  <div class="flexcontainer">
+    <div class="headerflex">
+      <img src="https://i.imgur.com/hR7EuPx.png">
+      <h1 id="title">The Vote For Humanity's Survival</h1>
+      <section>
+        <p id="description">This is a short survey to gain your opinion on this very.....very.....very important matter.<br><br>
+        The Combine have contacted the leaders of Earth and have demanded our surrender.  This is a pivotal moment in the history of humanity so we, the perpetrators of this debacle, wish to reach out for the opinions of anybody and everybody as this decision will affect us so.<br><br>
+        Please fill out the form below.</p>
+      </section>
+    </div>
+    <section>
+        <form id="survey-form">
+          <div class="surveyflex">
+            <div class="namelabelflex">
+                <label id="name-label"> <strong>Name</strong><br>
+                    <input id="name" type="text" placeholder="John Smith" required>
+                </label>
+            </div>
+            <div class="emaillabelflex">
+                <label id="email-label"> <strong>Email</strong><br>
+                    <input id="email" type="email" placeholder="johnsmith@google.com" required>
+                </label>
+            </div>
+            <div class="numberlabelflex">
+                <label id="number-label"> <strong>Age</strong><br>
+                <input id="number" type="number" min="13" max="120" placeholder="18">
+                </label>
+            </div>
+          </div>
+          <div class="dropdownflex">
+            <p id="regiondropdown"><strong>What region of the world are you from?</strong></p>
+            <select id="dropdown">
+              <label>
+                <option value="">Select an option</option>
+                <option value="1">Asia</option>
+                <option value="2">Africa</option>
+                <option value="3">Europe</option>
+                <option value="4">Oceania</option>
+                <option value="5">Middle East</option>
+                <option value="6">North America</option>
+                <option value="7">South America</option>
+              </label>
+            </select>
+          </div>
+          <div class="choicesflexoverlord">
+            <div class="choicesflex">
+              <p>Are you willing to vote to affect the future of humanity?</p>
+                <label for="Option1">Yes<input type="radio" id="Option1" name="radiochoice" value="optionone" required></label>
+                <label for="Option2">No<input type="radio" id="Option2" name="radiochoice" value="optiontwo">
+            </div>
+            <div class="textareaflex">
+                <textarea id="textarea" rows="3" cols="55" placeholder="We would love any comments you may have. Due to time being of the essence, we would like to ask you to refrain from sharing anything emotionally charged or flammatory.  Thank you."></textarea>
+            </div>
+            <div class="whatyoulike">
+              <p>Tell us what you are going to miss about Earth</p>
+              <label><input type="checkbox" value="checkoption1">The Sun</label>
+              <label><input type="checkbox" value="checkoption1">The Moon</label>
+              <label><input type="checkbox" value="checkoption1">Being Outside</label>
+              <label><input type="checkbox" value="checkoption1">Having a social life</label>
+              <label><input type="checkbox" value="checkoption1">Having Pets</label>
+            </div>
+            <p>Thank you for your input.</p>
+            <div class="submitbutton">
+            <input type="submit" id="submit" value="Cast My Vote">
+            </div>
+          </div>
+        </form>
+    </section>
+  </div>
+</body>
+<footer>
+  <p id="footerpara">Made by MajorOcelot</p>
+</footer>
+</html>
